@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://db.onlinewebfonts.com/c/55c4f556836775174bfac94178a3fe82?family=Proxima+N+W01+Reg');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: 0;
+}
+
+body {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+ background: black;
+}
+
+#divBuscar{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+  .cabecalho{
+    background: #333;
+    border-bottom: solid 5px #4faddb;
+    height: 60px;
+    box-sizing: content-box;
+  }
+
+  .logo {
+    display: inline-block;
+    height: 80px;
+    padding: 11px;
+  }
+
+  .logo img {
+    height: 70%;
+  }
+
+  .menu {
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;
+  }
+
+  .menu ul {
+    margin: 11px 15 px;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    
+  }
+
+  .cabecalho a {
+    text-decoration: none;
+    color: #E0EEEE;
+    font-size: #eee;
+  }
+
+  .menu a {
+    padding: 15px;
+  }
+
+  #autenticacao{
+    position: relative;
+    left: 50px;
+  }
+
+  .placeholder {
+    position: relative;
+    color: #eee;
+  }
+
+  .autenticacao {
+    float: right;
+    height: 80px;
+    padding: 25px;
+    position: relative;
+    color: #eee;
+  }
+
+  .menu a :hover, 
+  .menu a.selected {
+    margin: 5px 0;
+    background-color: #4faddb;
+    padding: 10px;
+    transition: background-color 0.3s;
+    color: black;
+  }
+
+  .botao {
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 8px;
+  }
+
+  .destaque {
+    background-color: #f50a31;
+  }
+
+  .img_Inic {
+    top: 0px;
+  }
+
+  h1 {
+    text-align: center;
+    top: 50px;
+    left: 30%;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: "Proxima N W01 Reg";
+    margin: 0px;
+  }

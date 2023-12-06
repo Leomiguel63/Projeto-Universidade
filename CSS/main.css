@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&family=Heebo:wght@100;200;300;400;500;600&family=Karla:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  background: black;
+}     
+
+#divBuscar{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+
+  .cabecalho{
+    background: #333;
+    border-bottom: solid 5px #4faddb;
+    height: 60px;
+    box-sizing: content-box;
+  }
+
+  .logo {
+    display: inline-block;
+    height: 80px;
+    padding: 11px;
+  }
+
+  .logo img {
+    height: 60%;
+  }
+
+  .menu {
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;
+  }
+
+  .menu ul {
+    margin: 11px 15 px;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    
+  }
+
+  .cabecalho a {
+    margin: 20px;
+    text-decoration: none;
+    color: #E0EEEE;
+    font-size: #eee;
+  }
+
+  .menu a :hover {
+    padding: 0px;
+    color: rgb(209, 65, 65);
+  }
+
+  .autenticacao :hover{
+    position: relative;
+    color: rgba(0, 245, 233, 0.904)
+  }
+
+  .txtBuscar {
+    position: relative;
+    color: #eee;
+    border-radius: 10px;
+  }
+
+  .autenticacao {
+    float: right;
+    height: 80px;
+    padding: 25px;
+    position: relative;
+    color: #eee;
+  }
+
+  .menu :hover {
+    padding: 0;
+    color: rgb(209, 65, 65);
+  }
+
+  .botao {
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 8px;
+  }
+
+  .destaque {
+    background-color: #f50a31;
+  }
+
+  .img_Inic {
+    top: 0px;
+  }
+
+  h1 {
+    text-align: center;
+    top: 50px;
+    left: 30%;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: "Cabin";
+    margin: 0px;
+  }
+
+  .social_Midia {
+    position: fixed;
+    top: 50%; /* Posiciona os ícones no meio do topo da página */
+    left: 20px; /* Ajuste a distância da borda esquerda conforme necessário */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    width: 50px;
+    height: 50px;
+  }
+  .social_Midia .social_Twitter {
+    background: linear-gradient(to right, #56a7f2, #468aca);
+    padding: 5px;
+    height: 70px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.social_Midia .social_Facebook {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  padding: 5px;
+  height: 70px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.social_Midia .social_Wattsapp {
+  background-image: linear-gradient(135deg, #25D366, #FFFFFF);
+  padding: 5px;
+  height: 70px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+
+.social_Midia .social_Instagram {
+  background-image: linear-gradient(45deg, #C13584, #F56040);
+  padding: 5px;
+  height: 70px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.social_Midia {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.social_Midia span {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.social_Midia a i {
+  margin: 0 0.5rem;
+  width: 15px;
+}
+
+.social_Midia a {
+  text-decoration: none;
+  color: white;
+}
+
+.rodape{
+  background-color: #f50a31;
+  height: 170px;
+  position: relative;
+  top: 2700px;
+  
+}
+
+.rodape img {
+  position: relative;
+  right: 530px;
+}
+
+.rodape p {
+  color: #eee;
+  position: relative;
+  right: 600px;
+  max-height: 400px;
+}
+
+
+ 
+
